@@ -1,0 +1,9 @@
+<div ng-controller="NavbarController as navbar">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <ul class="nav navbar-nav">
+            <li ng-repeat="item in items">
+                <a href="{{item.link}}" ng-bind="item.title"></a>
+            </li>
+        </ul>
+    </nav>
+</div>
